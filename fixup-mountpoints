@@ -14,7 +14,7 @@ shift
 echo "Fixing mount-points for device $DEVICE"
 
 case "$DEVICE" in
-    "ginko")
+    "ginkgo")
         sed -i \
             -e 's block/by-name/abl mmcblk0p33 ' \
             -e 's block/by-name/ablbak mmcblk0p34 ' \
